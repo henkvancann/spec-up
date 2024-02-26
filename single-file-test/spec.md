@@ -116,6 +116,12 @@ It is possible to include references to terms from external spec-up generated sp
 
 To include an external term reference within your spec use the following format `[[x-ref: {title}, {term}]]` where `{title}` is the title given to the spec in the config and `{term}` is the term being used. For example using the PE spec given in the example above [[x-ref: PE, Holder]]
 
+- [[x-ref: PE, holder]]
+
+- [[x-ref: PE, HoldeR]]
+
+- [[x-ref: PE, HOLDER]]
+
 ## Blockquote
 
 > To be, or not to be, that is the question: 
