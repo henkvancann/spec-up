@@ -114,13 +114,70 @@ It is possible to include references to terms from external spec-up generated sp
 ```
 :::
 
-To include an external term reference within your spec use the following format `[[x-ref: {title}, {term}]]` where `{title}` is the title given to the spec in the config and `{term}` is the term being used. For example using the PE spec given in the example above [[x-ref: PE, Holder]]
+To include an external term reference within your spec use the following format `[[x-ref: {title}, {term}]]` where `{title}` is the title given to the spec in the config and `{term}` is the term being used. For example using the PE spec given in the example above [[x-ref: PE, Holder]]  
+
+#### KERI gloss
+```
+[[x-ref: KE, Autonomic identifier]]
+```
+
+[[x-ref: KE, Autonomic identifier]]
+
+
+and what about 
+```
+[[x-ref: CE, Autonomic identifier]]
+```
+[[x-ref: CE, Autonomic identifier]]
+
+and the most important
+```
+[[x-ref: KE, Key Event Log]]
+```
+[[x-ref: KE, Key Event Log]]
+
+hey, and how did it know?...!
+```
+[[x-ref: KE, KEL]]
+```
+[[x-ref: KE, KEL]]
+
+#### ACDC gloss
+```
+[[x-ref: AC, Edge]]
+```
+[[x-ref: AC, Edge]]
+
+#### CESR gloss
+```
+[[x-ref: CE, Composability]]
+```
+[[x-ref: CE, Composability]]
+
+#### Duplicity?
+```
+KERI, ACDC, CESR 
+```
+
+[[x-ref: KE, Duplicity]]
+
+[[x-ref: AC, Duplicity]]
+
+[[x-ref: CE, Duplicity]]
+
+
+#### Typo resistant (to what extent?!)
 
 - [[x-ref: PE, holder]]
 
 - [[x-ref: PE, HoldeR]]
 
 - [[x-ref: PE, HOLDER]]
+  
+- [[x-ref: PE, ho lder]]
+  
+- [[x-ref: PE, HOLDERR]]
+
 
 ## Blockquote
 

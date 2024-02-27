@@ -14,6 +14,15 @@
       "external_specs": [
         {
           "PE": "https://identity.foundation/presentation-exchange"
+        },
+        {
+          "KE": "https://trustoverip.github.io/tswg-keri-specification"
+        },
+        {
+          "AC": "https://trustoverip.github.io/tswg-acdc-specification"
+        },
+        {
+          "CE": "https://trustoverip.github.io/tswg-cesr-specification"
         }
       ],
       "assets": [
